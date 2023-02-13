@@ -1,0 +1,4 @@
+Explain how to use Terraform modules to organize and reuse infrastructure code
+Show how to use Terraform variables, input and output variables
+Demonstrate how to use Terraform state management and remote state
+Show how to use Terraform workspaces to manage multiple environments

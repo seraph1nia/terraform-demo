@@ -1,0 +1,4 @@
+Explain what Terraform is and why it's useful for infrastructure as code
+Demonstrate how to install and set up Terraform on a local machine
+Show how to create a basic Terraform configuration file for a simple infrastructure resource, such as an AWS S3 bucket
+Demonstrate how to use the Terraform command-line interface (CLI) to initialize, plan, and apply the configuration
