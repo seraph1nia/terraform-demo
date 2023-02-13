@@ -4,11 +4,11 @@ provider "aws" {}
 
 terraform {
   backend "s3" {
-    bucket = "terraform-demo-statefiles"
-    key    = "demo3"
-    region = "eu-central-1"
+    bucket         = "terraform-demo-statefiles"
+    key            = "demo3"
+    region         = "eu-central-1"
     dynamodb_table = "terraform-demo-statefiles-locks"
-    encrypt = true
+    encrypt        = true
   }
 }
 
@@ -17,7 +17,7 @@ terraform {
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
 resource "aws_instance" "demo3" {
   ami           = data.aws_ami.amazon_linux.id
-  instance_type =  terraform.workspace == "default" ? "t2.micro" : "t2.nano"
+  instance_type = terraform.workspace == "default" ? "t2.micro" : "t2.nano"
 
 
   tags = {
