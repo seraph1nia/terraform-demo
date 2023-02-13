@@ -7,8 +7,8 @@ bespreek:
 - creds uit environment variabelen
 - terraform init (-upgrade)
 - .terraform/providers
-- resource
-- data
+- resource, resources die onder 
+- data, voor resources buiten
 - terraform plan
 - terraform apply
 - terraform destroy

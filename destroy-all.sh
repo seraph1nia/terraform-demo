@@ -10,6 +10,6 @@ IFS=$'\n'
 for dir in ${dirs}; do
 
 
-    terraform -chdir=${dir} destroy --auto-approve 2> /dev/null & || true
+    terraform -chdir=${dir} destroy --auto-approve || true & 
 
 done
