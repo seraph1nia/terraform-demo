@@ -19,6 +19,13 @@ resource "aws_instance" "demo2" {
     network_interface_id = aws_network_interface.demo2.id
     device_index         = 0
   }
+
+  tags = {
+    Terraform = "true"
+    Name      = "demo2"
+  }
+
+
 }
 
 resource "aws_network_interface" "demo2" {

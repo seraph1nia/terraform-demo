@@ -1,13 +1,15 @@
 # Aantekeningen
 
+terraform apply
+
 bespreek:
 
 - main.tf
-- providers
-- creds uit environment variabelen
+- providers, browser
+- credentials uit environment variabelen
 - terraform init (-upgrade)
 - .terraform/providers
-- resource, resources die onder 
+- resource, resources die aan gemaakt moeten zijn.
 - data, voor resources buiten
 - terraform plan
 - terraform apply
