@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Voer dit uit om snel alle resources te destroyen
-# LET OP: neemt niet cd cdktf directory mee
+# voor dit uit in de root van dit project
+# LET OP: neemt niet de cdktf directory mee
 # Controleer zelf het eindresultaat. De enige resources die geld kosten zijn de ec2 instances.
 
 dirs="$(find . -name "*.tf" -exec dirname {} \; | sort -u)"
