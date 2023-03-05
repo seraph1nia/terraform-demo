@@ -1,5 +1,6 @@
 # Code voor kennissessie Terraform I-Share
 
+Deze repository bevat de gebruikte code tijdens de demo's in de kennissessie over Terraform bij I-Share.
 Deze kennissessie is gegeven op het I-Share kantoor in Bunnik op 27-02-2023 door Bart Tange.
 
 ## benodigheden
