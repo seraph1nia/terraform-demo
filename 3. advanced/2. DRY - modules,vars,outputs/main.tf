@@ -3,6 +3,7 @@ provider "aws" {}
 
 
 # https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest
+# gebruik module uit registry
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.19.0"
@@ -24,7 +25,7 @@ module "vpc" {
 }
 
 
-
+# gebruik lokale module
 module "ec2" {
   source = "./modules/ec2"
 

@@ -1,6 +1,4 @@
-# Aantekeningen
-
-bespreken:
+# Bespreek dit
 
 - s3 remote state en lock, want samenwerken, of vanuit ci/cd
 - terraform workspaces, losse omgevingen, eigen statefile, bv default=prod, dev=dev

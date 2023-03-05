@@ -1,8 +1,4 @@
-# Aantekeningen
-
-terraform apply
-
-bespreek:
+# Bespreek dit
 
 - main.tf
 - providers, browser

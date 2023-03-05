@@ -1,9 +1,8 @@
-#!/usr/bin/env python
 from constructs import Construct
-from cdktf import App, NamedRemoteWorkspace, TerraformStack, TerraformOutput, RemoteBackend, Fn
+from cdktf import App, TerraformStack, TerraformOutput, Fn
 from cdktf_cdktf_provider_aws.provider import AwsProvider
 from cdktf_cdktf_provider_aws.instance import Instance
-from cdktf_cdktf_provider_aws.data_aws_ami_ids import DataAwsAmiIds, DataAwsAmiIdsFilter, DataAwsAmiIdsConfig
+from cdktf_cdktf_provider_aws.data_aws_ami_ids import DataAwsAmiIds, DataAwsAmiIdsFilter
 
 class cdktfDemo(TerraformStack):
     def __init__(self, scope: Construct, id: str):
